@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	hook "github.com/robotn/gohook"
+	hook "github.com/wormggmm/gohook"
 )
 
 func registerEvent() {

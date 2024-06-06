@@ -1,10 +1,10 @@
 # gohook
 
-[![Build Status](https://github.com/robotn/gohook/workflows/Go/badge.svg)](https://github.com/robotn/gohook/commits/master)
-[![CircleCI Status](https://circleci.com/gh/robotn/gohook.svg?style=shield)](https://circleci.com/gh/robotn/gohook)
-![Appveyor](https://ci.appveyor.com/api/projects/status/github/robotn/gohook?branch=master&svg=true)
-[![Go Report Card](https://goreportcard.com/badge/github.com/robotn/gohook)](https://goreportcard.com/report/github.com/robotn/gohook)
-[![GoDoc](https://godoc.org/github.com/robotn/gohook?status.svg)](https://godoc.org/github.com/robotn/gohook)
+[![Build Status](https://github.com/wormggmm/gohook/workflows/Go/badge.svg)](https://github.com/wormggmm/gohook/commits/master)
+[![CircleCI Status](https://circleci.com/gh/wormggmm/gohook.svg?style=shield)](https://circleci.com/gh/wormggmm/gohook)
+![Appveyor](https://ci.appveyor.com/api/projects/status/github/wormggmm/gohook?branch=master&svg=true)
+[![Go Report Card](https://goreportcard.com/badge/github.com/wormggmm/gohook)](https://goreportcard.com/report/github.com/wormggmm/gohook)
+[![GoDoc](https://godoc.org/github.com/wormggmm/gohook?status.svg)](https://godoc.org/github.com/wormggmm/gohook)
 <!-- This is a work in progress. -->
 
 ## Requirements (Linux):
@@ -16,7 +16,7 @@
 With Go module support (Go 1.11+), just import:
 
 ```go
-import "github.com/robotn/gohook"
+import "github.com/wormggmm/gohook"
 ```
 
 ## Examples:
@@ -27,7 +27,7 @@ package main
 import (
 	"fmt"
 
-	hook "github.com/robotn/gohook"
+	hook "github.com/wormggmm/gohook"
 )
 
 func main() {
