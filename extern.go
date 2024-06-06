@@ -23,7 +23,7 @@ func go_send(s *C.char) {
 		log.Fatal("json.Unmarshal error is: ", err)
 	}
 
-	if out.Keychar != CharUndefined {
+	if _, ok := raw2key[out.Rawcode]; !ok && out.Keychar != CharUndefined {
 		lck.Lock()
 		// rawToKey(out.Rawcode)
 		raw2key[out.Rawcode] = string([]rune{out.Keychar})
