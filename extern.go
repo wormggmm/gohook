@@ -25,6 +25,7 @@ func go_send(s *C.char) {
 
 	if out.Keychar != CharUndefined {
 		lck.Lock()
+		// rawToKey(out.Rawcode)
 		raw2key[out.Rawcode] = string([]rune{out.Keychar})
 		lck.Unlock()
 	}

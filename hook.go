@@ -210,7 +210,8 @@ func RawcodetoKeychar(r uint16) string {
 	lck.RLock()
 	defer lck.RUnlock()
 
-	return raw2key[r]
+	// return raw2key[r]
+	return rawToKey(r)
 }
 
 // KeychartoRawcode key char to rawcode
